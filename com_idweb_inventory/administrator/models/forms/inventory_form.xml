@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+        <fields name='basic' addfieldpath="/administrator/components/com_idweb_inventory/models/fields"
+                >
+                <fieldset name='filters'>
+                        <field
+                                id="InventoryType"
+                                name="InventoryType"
+                                type="InventoryType"
+                                label="COM_IDWEB_INVENTORY_FIELD_TYPE_LABEL"
+                                description="COM_IDWEB_INVENTORY_FIELD_TYPE_DESC"
+                                default="0"
+                        >
+                                <option value='0'>COM_IDWEB_INVENTORY_FIELD_TYPE_LABEL</option>
+                        </field>
+                        <field
+                                id="InventoryYear"
+                                name="InventoryYear"
+                                type="InventoryYear"
+                                label="COM_IDWEB_INVENTORY_FIELD_YEAR_LABEL"
+                                description="COM_IDWEB_INVENTORY_FIELD_YEAR_DESC"
+                                default="0"
+                        >
+                                <option value='0'>COM_IDWEB_INVENTORY_FIELD_YEAR_LABEL</option>
+                        </field>
+                        <field
+                                id="InventoryMake"
+                                name="InventoryMake"
+                                type="InventoryMake"
+                                label="COM_IDWEB_INVENTORY_FIELD_MAKE_LABEL"
+                                description="COM_IDWEB_INVENTORY_FIELD_MAKE_DESC"
+                                default="0"
+                        >
+                                <option value='0'>COM_IDWEB_INVENTORY_FIELD_MAKE_LABEL</option>
+                        </field>
+                        <field
+                                id="InventoryModel"
+                                name="InventoryModel"
+                                type="InventoryModel"
+                                label="COM_IDWEB_INVENTORY_FIELD_MODEL_LABEL"
+                                description="COM_IDWEB_INVENTORY_FIELD_MODEL_DESC"
+                                default="0"
+                        >
+                                <option value='0'>COM_IDWEB_INVENTORY_FIELD_MODEL_LABEL</option>
+                        </field>
+                        <field
+                                id="InventorySearch"
+                                name="InventorySearch"
+                                type="text"
+                                label="COM_IDWEB_INVENTORY_FIELD_SEARCH_LABEL"
+                                description="COM_IDWEB_INVENTORY_FIELD_SEARCH_DESC"
+                                maxlength="10"
+                        />
+                </fieldset>
+        </fields>
+</form>
